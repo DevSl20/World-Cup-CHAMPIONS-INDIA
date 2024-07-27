@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    background:  linear-gradient(to right, #f5af19, #f12711);
+  }
+  
+  h1{
+    font-size: 350%;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+  }
+  
+  h2{
+    font-size: 250%;
+    text-align: center;
+    color: #198cff;
+    margin: 10px;
+  }
+  
+  ol li{
+    font-size: 150%;
+    text-align: center;
+    color: darkblue;
+    list-style: lower-alpha;
+    padding: 10px;
+  }
+  
+  li:hover{
+    cursor: pointer;
+   background: green;
+  }
+  
+  h3{
+    font-size: 200%;
+    text-align: center;
+    color: green;
+    margin-bottom: 25px;
+  }
+  
+  h3 a {
+    color: #198cff;
+  }
+  
+  h3 a:hover{
+    cursor: grab;
+  }
+  
+  img{
+    display:block;
+    margin: auto;
+    border: 20px solid rgb(0, 143, 0);
+    border-radius: 15px;
+  }
+  
+  img:hover{
+    cursor: pointer;
+      transform: scale(1.1);
+  }
+  
+  p{
+    font-size: 150%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  iframe {
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: #198cff;
+  }
